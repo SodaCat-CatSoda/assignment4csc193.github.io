@@ -28,7 +28,7 @@ function setBoring() {
   const boring = document.getElementById("boringRadio");
 
   if (boring.checked) {
-    alert("Boring mode…");
+    alert("Boring mode");
     text.style.fontWeight = "normal";
     text.style.color = "black";
     text.style.textDecoration = "none";
@@ -58,4 +58,5 @@ function moo() {
   // Join sentences back together
   textArea.value =
     sentences.filter(s => s.trim().length > 0).join(". ") + ".";
+
 }
